@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sass website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-poppins">
+    <!-- Navbar -->
+    <section id="navbar">
+        <nav class="navbar nav-bar navbar-expand-lg bag py-4 g-pad">
+            <span class="navbar-brand logo g-colour">Ice Zoh</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <img class="nav-btn" src="images/nav button.svg" alt="">
+            </button>
+          
+            <div class="collapse navbar-collapse justify-space-between" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4 px-2 mb-5">
+                <li class="nav-item active">
+                    <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item text-color">
+                  <a class="nav-link text-light" href="#services">Services</a>
+                </li>
+                <li class="nav-item text-color">
+                    <a class="nav-link text-light" href="#products">Products</a>
+                  </li>
+                  <li class="nav-item text-color">
+                    <a class="nav-link text-light" href="#Benefits">Benefits</a>
+                  </li>
+                  <li class="nav-item text-color">
+                    <a class="nav-link text-light" href="#Reviews">Reviews</a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0 d-flex gap-4">
+                  <button class="my-3 px-3 py-2 but my-sm-0" onclick="myFunction()" type="submit"><a class="text-light" href="sign up.html">Login</a></button>
+                <button class="my-3 px-3 py-2 my-sm-0" onclick="myFunction()"type="submit"><a class="text-light" href="sign up.html">Sign in</a></button>
+              </form>
+            </div>
+          </nav>
+    </section>
+    <!-- Hero-section -->
+    <section class="Hero-section g-pad mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <h1 class="pb-4">We're here to Increase your Productivity</h1>
+                    <img class="pb-4 m-0 line" src="images/Vector 32.svg" alt="">
+                    <div class="container d-flex">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <p class="pt-5 hero-para">Let's make your work more organize and easily using the Taskio Dashboard with many of the latest featuresin managing work every day.</p>
+                        </div>
+                        <div class=" col-sm-12 pt-4 d-flex gap-4">
+                            <div>
+                                <button class="p-3 trial-button">Try free trial</button>
+                            </div>
+                            <div class="p-3">
+                              <!-- <img src="images/5.svg" alt=""> -->
+                                <button class="px-3 py-2 g-border login">View more</button>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img class="image-one" src="images/image1.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sponsors section -->
+    <section class="sponsors g-pad margin">
+      <div class="sponsors mt-3">
+        <h1 class="h1">More than 25,000 teams use Collabs</h1>
+      </div>
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col logos">
+            <div class="d-flex sponsors-logo gap-3">
+              <img class="logos" src="images/Group 141.svg" alt="">
+              <img class="logos" src="images/Group 142.svg" alt="">
+              <img class="logos" src="images/Group 143.svg" alt="">
+              <img class="logos" src="images/Group 144.svg" alt="">
+              <img class="logos" src="images/Group 145.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- service section -->
+    <section class="services g-pad margin">
+      <div class="container" id="services">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h1 class="h1 mt-3">How we support our pratner all over the world</h1>
+            <p class="pt-4 grey-color">SaaS become a common delivery model for many business application, including office software, 
+              messaging software, payroll processing software, DBMS software, management software</p>
+              <div class="d-flex row">
+                  <div class="pt-5 col">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <p class="pt-3"><strong>4.9</strong>/5 rating</p>
+                    <p class="grey-color">databricks</p>
+                  </div>
+                  <div class="pt-5 col">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <p class="pt-3"><strong>4.9</strong>/5 rating</p>
+                    <p class="grey-color">Chainalysis</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class=" d-flex">
+              <img src="images/activity 1.svg" alt="">
+              <p class="headings px-3"><strong>Publishing</strong></style></p>
+            </div>
+              <div class="px-5">
+                <p>
+                  Plan, collaborate, and publishing your content that drives meaningful engagement and growth for your brand
+                </p>
+              </div>
+              <div class=" d-flex">
+                <img src="images/pie-chart 1.svg" alt="">
+                <p class="headings px-3"><strong>Analytics</strong></style></p>
+              </div>
+                <div class="px-5">
+                  <p>
+                    Analyze your performance and create fantastic report
+                  </p>
+                </div>
+                <div class=" d-flex">
+                  <img src="images/command 1.svg" alt="">
+                  <p class="headings px-3"><strong>Engagement</strong></style></p>
+                </div>
+                  <div class="px-5">
+                    <p>
+                      Quiuckly navigate you anda engage with your adience
+                    </p>
+                  </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- features sections -->
+    <section class="features g-pad margin">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="d-flex feat"> -->
+          <div class="col-md-4 col-sm-12py-3">
+            <h3 class="h1">Our Features you can get</h3>
+            <div class="feat-1">
+              <img class="w-75 pt-5 feat-img" src="images/Frame 247.svg" alt="">
+            </div>
+            <div class="">
+              <h6 class="pt-3">Collaboration Teams</h6>
+              <p class="grey-color">Here you can handle projects together with team virtually.
+                We offer you the best, as our teams works hard to make sure you recieve the nothing less than the best
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 py-3">
+            <p class="grey-color">We offer a variety of interesting features that can help increase your
+               productivity at work and manage your project esaily</p>
+               <div class="feat-1">
+                 <img class="w-75 pt-5 feat-img" src="images/Frame 53.svg" alt="">
+               </div>
+               <div>
+                <h6 class="pt-3">Great Results</h6>
+                <p class="grey-color">We use the latest technology to make sure your projects are timely, efficent and realiable.</p>
+               </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 py-5 pt-5 mt-5 privacy">
+            <button class="p-3 get">Get Started</button>
+            <div class="feat-1">
+              <img class="w-75 pt-3 feat-img" src="images/Vector.svg" alt="">
+            </div>
+            <div>
+              <h6 class="pt-3">Privacy</h6>
+              <p class="grey-color">Here, our team ensures your track record is kept save and protected from scammers.We protect your information like a treaure, which it is!</p>
+            </div>
+          </div>
+          </div>
+        <!-- </div> -->
+      </div>
+    </section>
+    <!-- Benefits sections -->
+    <section class="Benefits g-pad margin" id="Benefits">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <h6 class="h1 pb-4">What Benefit will<br>You Get</h6>
+            <div class="d-flex gap-3 py-1">
+              <img src="images/Subtract.svg" alt="">
+              <p class="pt-3 benefit">Online Banking</p>
+            </div>
+            <div class="d-flex gap-3 py-1">
+              <img src="images/Subtract.svg" alt="">
+              <p class="pt-3 benefit">Investment Report Every Month</p>
+            </div>
+            <div class="d-flex gap-3 py-1">
+              <img src="images/Subtract.svg" alt="">
+              <p class="pt-3 benefit">Saving Money For The Future</p>
+            </div>
+            <div class="d-flex gap-3">
+              <img src="images/Subtract.svg" alt="">
+              <p class="pt-3 benefit">Online Transaction</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="" style="position: relative;">
+              <img class="w-75 laptop"src="images/Group 442.svg" alt="">
+              <img class="b-1" src="images/Group 446.svg" alt="" >
+              <img class="b-2" src="images/Group 445.svg" alt="">
+              <img class="icon" src="images/Group 113.svg" alt="">
+              <img class="b-3" src="images/Group 60.svg" alt="">
+              <img class="pic-1" src="images/Group 444.svg" alt="">
+              <div class="d-flex gap-3 py-1 text-1">
+                <img src="images/Subtract.svg" alt="">
+                <p class="pt-3">Money Transfer Succesful</p>
+              </div>
+            </div>   
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- plan section -->
+    <section class="Plan g-pad margins" id="products">
+      <h6 class="h1">Choose Plan
+        That’s Right For You</h6>
+        <p class="py-3 choose">Choose plan that works best for you, feel free to contact us</p>
+        <!-- <div class="d-flex gap-4 padd py-2 p-absolute plan-btn" style="justify-content: center; margin: 0 35%; background-color: #A6A6A6; border-radius: 7px;">
+          <a class="py-4 monthly-btn relative" href="#" style="color: #161C28">Bill Monthly</a>
+          <button class="px-5 yearly-btn relative">Bill Yearly</button>
+        </div> -->
+      <div class="container overflow-hidden mt-5">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-xs-12 mt-5 py-3 free">
+            <h6 class="h1">Free</h6>
+            <p>Have a go and test your superpowers</p>
+            <img class="ash" style="border-radius: 4%;" src="images/zero.svg" alt="">
+          <div class="my-3 px-4 py-4 bg-ash" style="border-radius: 7px;">
+           <div class="d-flex gap-4">
+            <img src="images/Subtract.svg" alt="">
+            <p class="pt-3 blue-color">2 Users</p>
+           </div>
+
+           <div class="d-flex gap-4">
+            <img src="images/Subtract.svg" alt="">
+            <p class="pt-3 blue-color">2 Files</p>
+           </div>
+
+           <div class="d-flex gap-4">
+            <img src="images/Subtract.svg" alt="">
+            <p class="pt-3 blue-color">Public Share & Comments</p>
+           </div>
+
+           <div class="d-flex gap-4">
+            <img src="images/Subtract.svg" alt="">
+            <p class="pt-3 blue-color">Chat Support</p>
+           </div>
+
+           <div class="d-flex gap-4">
+            <img src="images/Subtract.svg" alt="">
+            <p class="pt-3 blue-color">New income apps</p>
+           </div>
+           <button class="px-5 py-3 g-border" style="background-color: #fff; color: #54BD95;"><a class="g-colour" href = "sign up.html">Signup for free</a></button>
+          </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12 mt-4 py-3"  style="border-radius: 5px; background-color: #54BD95;">
+           <h6 class="h1 text-light mt-3">Pro</h6>
+           <p class="text-light">Experiment the power of infinite possibilities</p>
+           <img src="images/Group 194.svg" alt="">
+           <!-- <img src="images/Group 206.svg" alt=""> -->
+            <div class="mt-4 py-1" style="background-color: #85DAB9; border-radius: 5px; margin: 0% 20%;">
+              <p class="text-light pt-2">Save $50 a year</p>
+            </div>
+            <div class="my-3 px-4 py-4 bg-ash" style="border-radius: 5px;">
+              <div class="d-flex gap-4">
+               <img src="images/Subtract.svg" alt="">
+               <p class="pt-3 blue-color">2 Users</p>
+              </div>
+   
+              <div class="d-flex gap-4">
+               <img src="images/Subtract.svg" alt="">
+               <p class="pt-3 blue-color">2 Files</p>
+              </div>
+   
+              <div class="d-flex gap-4">
+               <img src="images/Subtract.svg" alt="">
+               <p class="pt-3 blue-color">Public Share & Comments</p>
+              </div>
+   
+              <div class="d-flex gap-4">
+               <img src="images/Subtract.svg" alt="">
+               <p class="pt-3 blue-color">Chat Support</p>
+              </div>
+   
+              <div class="d-flex gap-4">
+               <img src="images/Subtract.svg" alt="">
+               <p class="pt-3 blue-color">New income apps</p>
+              </div>
+              <button class="px-5 py-3">Go to pro</button>
+             </div>
+              </div>
+            
+                  <div class="col-md-4 col-sm-12 col-xs-12 mt-5 py-3">
+                    <h6 class="h1">Business</h6>
+                    <p class="grey-color">Unveil new superpowers and join the Design Leaque</p>
+                    <img src="images/16.svg" alt="">
+                  <div class="my-3 px-4 py-4 bg-ash" style="border-radius: 7px;">
+                   <div class="d-flex gap-3">
+                    <img src="images/Subtract.svg" alt="">
+                    <p class="pt-3 blue-color">All the features of pro plan</p>
+                   </div>
+        
+                   <div class="d-flex gap-3">
+                    <img src="images/Subtract.svg" alt="">
+                    <p class="pt-3 blue-color">Account success Manager</p>
+                   </div>
+        
+                   <div class="d-flex gap-4">
+                    <img src="images/Subtract.svg" alt="">
+                    <p class="pt-3 blue-color">Single Sign-On (SSO)</p>
+                   </div>
+        
+                   <div class="d-flex gap-4">
+                    <img src="images/Subtract.svg" alt="">
+                    <p class="pt-3 blue-color">Co-conception pogram</p>
+                   </div>
+        
+                   <div class="d-flex gap-4">
+                    <img src="images/Subtract.svg" alt="">
+                    <p class="pt-3 blue-color">Collaboration-Soon</p>
+                   </div>
+                   <button class="px-5 py-3 g-border" style="background-color: #fff; color: #54BD95;">Go to business</button>
+                  </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section class="footer g-pad margins text-light">
+      <div class="container" id="Reviews">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 col-xs-12 footer-margin">
+            <h2>People are Saying About Ice Zoh</h2>
+            <p class="grey-color pb-3">Everything you need to accept to payment and grow your money of manage anywhere on planet</p>
+            <img src="images/Group 212.svg" alt="">
+            <p class="py-4">I am very helped by this E-wallet application ,
+               my days are very easy to use this application and its very helpful in my life , even I can pay a short time 😍</p>
+               <p>_ Aria Zinanrio</p>
+               <div class="d-flex gap-3">
+                <img class=" profile-pic" src="images/1.svg" alt="">
+                <img class=" profile-pic" src="images/2.svg" alt="">
+                <img class=" profile-pic" src="images/3.svg" alt="">
+                <img class=" profile-pic" src="images/4.svg" alt="">
+                <img class=" profile-pic" src="images/5.svg" alt="">
+               </div>
+          </div>
+         
+          <div class="col-md-6 col-sm-12 col-xs-12 footer-margin login" style="position: relative; border-radius: 10px;">
+            <div class="position">
+              <img class="mt-3 mb-2" src="images/dollar.svg" alt="">
+            </div>
+            <h4 class="pt-2 position">Get started</h4>
+            <form action="mailto:info@isaiahedeghai@gmail.com" method="post" enctype="text/plain" class="mx-5">
+              <label for="Email" class="mb-3">Email:</label><br>
+              <input type="email" class="email px-4 py-2" placeholder="Enter your email" required style=" border-radius: 10px;"><br>
+              <label for="message" class="my-3 ">Message:</label><br>
+              <textarea name="yourMessage" class="message mb-4 px-4 py-3" rows="2" cols="10" placeholder="your Message" required style=" border-radius: 10px;"></textarea>
+              <div class="submit">
+                <button class="submit py-3">Request Demo</button>
+              </div>
+            </form>
+            <div class="d-flex gap-2 mt-3" style="margin-right: 0%;">
+              <p class="grey-color">or</p>
+              <a class="text-light pt-1" href="" style="text-decoration: none;">Start free trial</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12 col-xs-12 footer-margin" style="position: relative; border-radius: 10px;">
+            <h2 class="g-colour">Ice Zoh</h2>
+            <p class="grey-color">Get started now, try our product</p>
+            <input type="text" class="entermail px-4 relative" placeholder="Enter your email here" required>
+            <button class="py-1 px-2">submit</button>
+<!--             
+              <img class="for p-absolute" src="images/Group 449.svg" alt=""> 
+              <img class="circle p-absolute" src="images/Ellipse 59.svg" alt=""> -->
+              <p class="copy">© 2022 Divine Edeghai Inc. Copyright and rights reserved</p>
+          </div>
+          <div class="col footer-margin" style="position: relative; ">
+            <div class="row d-flex justify-content-around">
+              <div class="col-4">
+                <a class="nav-link" href="#"><b>Support</b></a>
+                <a class="grey-color nav-link" href="#">Help centre</a>
+                <a class="grey-color nav-link" href="#">Account info</a>
+                <p class="grey-color">About</p>
+                <p class="grey-color">Contact us</p>
+              </div>
+
+              <div class="col-4">
+                <p><b>Help and Solution</b></p>
+                <p class="grey-color">Talk to support</p>
+                <p class="grey-color">Support docs</p>
+                <p class="grey-color">System status</p>
+                <p class="grey-color">Covid responds</p>
+              </div>
+
+              <div class="col-4">
+                <p><b>products</b></p>
+                <p class="grey-color">Update</p>
+                <p class="grey-color">Security</p>
+                <p class="grey-color">Beta test</p>
+                <p class="grey-color">Pricing product</p>
+              </div>
+              <div class="d-flex gap-5 terms justify-content-center">
+                <p>Terms and Condtions</p>
+                <p>Privacy Policy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* position: relative; */
+}
+body{
+   
+    background-color: #161C28;
+    color: #F9FAFB;
+    font-family: poppins, sans-serif;
+}
+.nav-bar li{
+    position: relative;
+}
+.nav-bar li a:hover,
+.nav-bar li a.active{
+color: #54BD95;
+transition: 0.3s ease;
+}
+/* .relative{
+    position: relative;
+} */
+
+.nav-bar li a.active::after,
+.nav-bar li a:hover::after{
+    content:"";
+    width: 30%;
+    height: 2px;
+    background: #54BD95;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+    /* text-decoration: none; */
+
+}
+.navbar{
+    width: 100%;
+}
+
+.nav-btn{
+    background-color: #54BD95;
+}
+.g-pad{
+    padding: 0% 8%;
+}
+.g-colour{
+    color: #54BD95;
+}
+.logos{
+    font-size: 35px;
+    font-weight: 800;
+}
+.logos:hover{
+   color: #54BD95;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: #54BD95;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.login{
+    box-sizing: border-box;
+    align-items: center;
+    width: 50%;
+    background-color: hsl(221, 24%, 18%);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.logo{
+    /* left: 40%; */
+    justify-items: center;
+    margin: 2% 45% 0 45%;
+   
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    
+}
+.h1{
+    font-size: 20px; 
+}
+.email{
+/* position: absolute; */
+width: 100%;
+}
+.message{
+    /* position: absolute; */
+    width: 100%;
+}
+.submit{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #54BD95;
+}
+p{
+    color: rgb(170, 165, 165);
+}
+@media(max-width: 1200px){
+    .login{
+       
+        width: 80%;
+        background-color: hsl(221, 24%, 18%);
+        margin: 0 auto;
+    }
+    .submit{
+        padding: 4px !important;
+}
+.logos{
+    font-size: 20px;
+}
+}
+@media(max-width: 400px){
+    .login{
+        width: 80%;
+        /* height: 20% !important; */
+        background-color: hsl(221, 24%, 18%);
+        margin: 0 auto;
+    }
+    .email{
+    padding: 4px !important;
+        width: 100%;
+        }
+        .message{
+            width: 100%;
+            padding: 4px !important;
+        }
+        .submit{
+            padding: 2px !important;
+           
+        }
+        .logos{
+            font-size: 16px;
+        }
+}
